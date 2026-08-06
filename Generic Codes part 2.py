@@ -10,6 +10,7 @@ num2 = int(input("Enter second number: "))
 add, product, subtract = operations(num1, num2)
 print("Addition:", add, "Product:", product, "Subtraction:", subtract)
 
+
 # 12. Frequency of Words
 def word_frequency(sentence):
     words = sentence.split()
