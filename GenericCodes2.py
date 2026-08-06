@@ -5,6 +5,9 @@ def operations(a, b):
     subtract = a - b
     return add, product, subtract
 
+
+
+
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 add, product, subtract = operations(num1, num2)
