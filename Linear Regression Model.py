@@ -24,6 +24,7 @@ mse = mean_squared_error(y, y_pred)
 r2 = r2_score(y, y_pred)
 print("Mean Squared Error:", mse, "R2 Score:", r2)
 
+
 # Task 4: Visualizing the Regression Line
 plt.scatter(x, y, color='blue')
 plt.plot(x, y_pred, color='red')
